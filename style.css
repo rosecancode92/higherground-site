@@ -1,9 +1,12 @@
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  background: #0f0f0f;
-  color: #ffffff;
+  font-family: 'Inter', sans-serif;
 }
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
 
 .nav {
   display: flex;
@@ -39,12 +42,4 @@ body {
   background: #1a1a1a;
   padding: 20px;
   border-radius: 12px;
-}
-
-body {
-  font-family: 'Inter', sans-serif;
-}
-
-h1, h2, h3 {
-  font-family: 'Playfair Display', serif;
 }
