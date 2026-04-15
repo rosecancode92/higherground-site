@@ -1,12 +1,4 @@
 
-body {
-  font-family: 'Inter', sans-serif;
-}
-
-h1, h2, h3 {
-  font-family: 'Playfair Display', serif;
-}
-
 
 .nav {
   display: flex;
@@ -42,4 +34,12 @@ h1, h2, h3 {
   background: #1a1a1a;
   padding: 20px;
   border-radius: 12px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
 }
