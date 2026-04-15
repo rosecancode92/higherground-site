@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   background: #0f0f0f;
   color: #ffffff;
 }
@@ -70,13 +69,14 @@ body {
 }
 
 body {
+  margin: 0;
   font-family: 'Inter', sans-serif;
+  background: #0f0f0f;
+  color: #ffffff;
 }
 
 h1, h2, h3 {
   font-family: 'Playfair Display', serif;
 }
 
-body {
-  font-family: 'Playfair Display', serif;
-}
+
