@@ -1,85 +1,103 @@
 body {
-  margin: 0;
-  background: #0f0f0f;
-  color: #ffffff;
+margin: 0;
+font-family: 'Inter', sans-serif;
+background: #000;
+color: #fff;
 }
 
+/* BACKGROUND TEXT */
+.bg-text {
+position: fixed;
+bottom: 20px;
+left: 20px;
+font-size: 18px;
+color: #c9a96e;
+letter-spacing: 2px;
+}
+
+/* NAVBAR */
 .nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 40px;
+display: flex;
+justify-content: space-between;
+padding: 20px 40px;
+position: sticky;
+top: 0;
+background: rgba(0,0,0,0.8);
 }
 
 .nav a {
-  color: #ffffff;
-  text-decoration: none;
-  margin-left: 20px;
-  opacity: 0.8;
+color: white;
+text-decoration: none;
+margin-left: 20px;
+transition: 0.3s;
 }
 
 .nav a:hover {
-  opacity: 1;
+color: #c9a96e;
 }
 
+/* SCROLL CONTAINER */
+.container {
+max-width: 900px;
+margin: 80px auto;
+background: #111;
+padding: 40px;
+border-radius: 20px;
+}
+
+/* HERO */
 .hero {
-  text-align: center;
-  padding: 120px 20px;
+text-align: center;
+margin-bottom: 60px;
 }
 
+.hero h1 {
+font-family: 'Playfair Display', serif;
+font-size: 42px;
+}
+
+/* BUTTON */
 .btn {
-  background: #ffffff;
-  color: #000;
-  padding: 12px 24px;
-  border-radius: 30px;
-  text-decoration: none;
+background: #c9a96e;
+color: black;
+padding: 12px 24px;
+border-radius: 30px;
+text-decoration: none;
 }
 
-.card {
-  background: #1a1a1a;
-  padding: 20px;
-  border-radius: 12px;
-}
-
-@media (max-width: 768px) {
-  .grid {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .hero h1 {
-    font-size: 56px;
-  }
-
-  .nav {
-    flex-direction: column;
-    gap: 10px;
-  }
-}
-
+/* GALLERY */
 .gallery-scroll {
-  display: flex;
-  overflow-x: auto;
-  gap: 20px;
-  padding: 20px;
+display: flex;
+overflow-x: auto;
+gap: 20px;
 }
 
 .gallery-scroll img {
-  height: 250px;
-  border-radius: 10px;
+height: 250px;
+border-radius: 10px;
 }
 
-body {
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-  background: #0f0f0f;
-  color: #ffffff;
+/* FOOTER */
+footer {
+margin-top: 60px;
+text-align: center;
+font-size: 12px;
+color: #777;
 }
 
-h1, h2, h3 {
-  font-family: 'Playfair Display', serif;
+/* MOBILE */
+@media (max-width: 768px) {
+.container {
+margin: 40px 20px;
+padding: 20px;
 }
 
-h1 {
-  letter-spacing: -1px;
+.hero h1 {
+font-size: 28px;
 }
 
+.nav {
+flex-direction: column;
+gap: 10px;
+}
+}
