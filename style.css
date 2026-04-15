@@ -36,6 +36,18 @@
   border-radius: 12px;
 }
 
+.gallery-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px;
+}
+
+.gallery-scroll img {
+  height: 250px;
+  border-radius: 10px;
+}
+
 body {
   font-family: 'Inter', sans-serif;
 }
