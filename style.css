@@ -1,0 +1,29 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #fff;
+  color: #111;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+}
