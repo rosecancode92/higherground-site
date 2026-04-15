@@ -1,4 +1,9 @@
-
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #0f0f0f;
+  color: #ffffff;
+}
 
 .nav {
   display: flex;
