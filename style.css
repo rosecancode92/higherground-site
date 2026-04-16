@@ -74,7 +74,7 @@ gap: 20px;
 
 .gallery-scroll img {
 height: 320px;
-border-radius: 10px;
+border-radius: auto;
 }
 
 /* FOOTER */
