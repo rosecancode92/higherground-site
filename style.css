@@ -9,13 +9,15 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
-  padding: 20px 40px;
+  align-items: center;
+  padding: 15px 30px;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   background: black;
   z-index: 1000;
+  box-sizing: border-box;
 }
 
 .nav a {
