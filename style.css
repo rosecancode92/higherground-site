@@ -100,4 +100,14 @@ font-size: 28px;
 flex-direction: column;
 gap: 10px;
 }
+
+  .bg-text {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  font-size: 40px;
+  color: #c9a96e;
+  letter-spacing: 3px;
+  font-family: 'Sedgwick Ave Display', cursive;
+}
 }
