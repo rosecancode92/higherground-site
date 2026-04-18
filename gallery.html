@@ -1,30 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Gallery</title>
-
- <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Inter:wght@300;500&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
-<script>
-window.addEventListener("scroll", () => {
-  const nav = document.querySelector(".nav");
-
-  if (window.scrollY > 10) {
-    nav.style.background = "rgba(0, 0, 0, 0.85)";
-  } else {
-    nav.style.background = "rgba(0, 0, 0, 0.6)";
-  }
-});
-</script>
-  
 <body>
 
-<div class="bg-text">HIGHERGROUNDNYC</div>
-
 <nav class="nav">
-
   <div class="nav-links">
     <a href="index.html">What We Do</a>
     <a href="gallery.html">Gallery</a>
@@ -32,22 +17,14 @@ window.addEventListener("scroll", () => {
   </div>
 </nav>
 
-<div class="container">
+<div class="main-panel">
 
   <h2>Gallery</h2>
 
-  <div class="gallery-scroll">
-    <img src="product-1.jpeg">
-    <img src="product-2.jpeg">
-    <img src="https://via.placeholder.com/300">
-    <img src="https://via.placeholder.com/300">
-  </div>
+  <img src="product-1.jpg" style="width:100%; border-radius:10px; margin-bottom:15px;">
+  <img src="product-2.jpg" style="width:100%; border-radius:10px; margin-bottom:15px;">
+  <img src="product-3.jpg" style="width:100%; border-radius:10px;">
 
-<a href="https://instagram.com/higherground.nyc" target="_blank">
-  <img src="images/product-1.jpg">
-</a>
-</div>
-  
 </div>
 
 </body>
