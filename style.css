@@ -85,7 +85,8 @@ body {
   .nav a {
     font-size: 14px;
   }
-
+  
+/* Background Text */
   .bg-text {
   position: fixed;
   bottom: 20px;
@@ -95,8 +96,8 @@ body {
   font-size: 40px;
   color: red;
 
-  opacity: 0.8;
-  z-index: 0;
+  opacity: 0.7;
+  z-index: 9999;
   pointer-events: none;
 }
 }
