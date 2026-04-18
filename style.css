@@ -74,18 +74,6 @@ body {
   
 }
 
-/* MOBILE */
-@media (max-width: 768px) {
-  .scroll-box {
-    width: 95%;
-    height: 85vh;
-    padding: 20px;
-  }
-
-  .nav a {
-    font-size: 14px;
-  }
-  
 /* Background Text */
   .bg-text {
   position: fixed;
@@ -100,4 +88,17 @@ body {
   z-index: 9999;
   pointer-events: none;
 }
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .scroll-box {
+    width: 95%;
+    height: 85vh;
+    padding: 20px;
+  }
+
+  .nav a {
+    font-size: 14px;
+  }
+  
 }
