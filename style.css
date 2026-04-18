@@ -31,6 +31,20 @@ body {
   color: red;
 }
 
+@media (max-width: 768px) {
+  .nav {
+    padding: 15px 20px;
+  }
+
+  .nav-links {
+    gap: 12px;
+  }
+
+  .nav a {
+    font-size: 14px;
+  }
+}
+
 /* HERO */
 .hero {
   text-align: center;
