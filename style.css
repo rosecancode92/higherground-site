@@ -80,7 +80,7 @@ body {
 /* Background Text */
   .bg-text {
   position: fixed;
-  bottom: 80px;
+  bottom: 20px;
   left: 40px;
 
   font-family: 'Sedgwick Ave Display', cursive;
