@@ -1,12 +1,13 @@
+
 body {
   margin: 0;
   background: black;
   font-family: sans-serif;
   color: white;
-  overflow: hidden; /* important: locks background */
+  overflow: hidden;
 }
 
-/* NAV stays fixed */
+/* NAV */
 .nav {
   display: flex;
   justify-content: center;
@@ -23,17 +24,32 @@ body {
   -webkit-backdrop-filter: blur(12px);
 }
 
-/* FLEX CENTER WRAPPER */
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav a:hover {
+  color: red;
+}
+
+/* PAGE WRAPPER (centers everything) */
 .page-wrapper {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 70px; /* space for nav */
+  padding-top: 70px;
   box-sizing: border-box;
 }
 
-/* SCROLL BOX */
+/* SCROLL BOX (your actual page content) */
 .scroll-box {
   width: 90%;
   max-width: 900px;
@@ -46,6 +62,7 @@ body {
   border-radius: 20px;
   padding: 30px;
   overflow-y: auto;
+  box-sizing: border-box;
 }
 
 /* MOBILE */
@@ -54,5 +71,9 @@ body {
     width: 95%;
     height: 85vh;
     padding: 20px;
+  }
+
+  .nav a {
+    font-size: 14px;
   }
 }
