@@ -48,8 +48,9 @@ body {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding-top: 70px;
+  align-items: flex-start;
+  padding-top: 110px;
+  padding-bottom: 120px;
   box-sizing: border-box;
 }
 
@@ -80,7 +81,7 @@ body {
 /* Background Text */
   .bg-text {
   position: fixed;
-  bottom: 20px;
+  bottom: 80px;
   left: 40px;
 
   font-family: 'Sedgwick Ave Display', cursive;
