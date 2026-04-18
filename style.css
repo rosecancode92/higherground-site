@@ -4,7 +4,6 @@ body {
   background: black;
   font-family: 'Adamina', serif;
   color: white;
-  overflow: hidden;
 }
 
 /* NAV */
@@ -49,8 +48,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 110px;
-  padding-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 140px;
   box-sizing: border-box;
 }
 
@@ -58,7 +57,7 @@ body {
 .scroll-box {
   width: 90%;
   max-width: 900px;
-  height: 80vh;
+  max-height: 80vh;
 
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(15px);
