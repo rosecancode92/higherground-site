@@ -9,6 +9,7 @@ body {
 /* NAV */
 .nav {
   display: flex;
+  gap: 25px
   justify-content: center;
   align-items: center;
   padding: 15px 30px;
