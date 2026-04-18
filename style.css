@@ -68,7 +68,8 @@ body {
   overflow-y: auto;
   box-sizing: border-box;
   margin-bottom: 20px;
-
+ position: relative;
+ z-index: 1;
 }
 
   .about {
