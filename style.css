@@ -67,6 +67,11 @@ body {
   padding: 30px;
   overflow-y: auto;
   box-sizing: border-box;
+
+  .about {
+    text-align: center;
+  }
+  
 }
 
 /* MOBILE */
