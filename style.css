@@ -104,5 +104,15 @@ body {
   .nav a {
     font-size: 14px;
   }
+
+  .insta-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.insta-link:hover {
+  color: red;
+}
   
 }
