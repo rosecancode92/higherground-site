@@ -114,5 +114,14 @@ body {
 .insta-link:hover {
   color: red;
 }
+
+  .about a {
+  color: white;
+  text-decoration: underline;
+}
+
+.about a:hover {
+  color: red;
+}
   
 }
