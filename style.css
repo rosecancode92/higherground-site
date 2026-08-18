@@ -1,55 +1,144 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact</title>
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io(1)%202/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon_io(1)%202/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon_io(1)%202/favicon-16x16.png">
-<link rel="manifest" href="/favicon_io(1)%202/site.webmanifest">
-<link rel="icon" href="/favicon_io(1)%202/favicon-32x32.png">
-<link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Adamina&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
-</head>
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #0a0a0a, #000);
+  font-family: 'Adamina', serif;
+  color: #f5f5f5;
+}
 
-<body>
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: center;
+  padding: 12px 24px;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 92%;
+  max-width: 1100px;
+  z-index: 1000;
 
-<nav class="nav">
-  <div class="nav-links">
-    <a href="index.html">What We Do</a>
-    <a href="shop.html">Shop</a>
-    <a href="contact.html">Contact</a>
-  </div>
-</nav>
+  background: rgba(10, 10, 10, 0.7);
+  backdrop-filter: blur(20px);
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.08);
+}
 
-<div class="page-wrapper">
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
 
-  <div class="scroll-box">
+.nav a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: 0.3s ease;
+}
 
-    <h2 style="text-align: center;">Book a Free Consult</h2>
+.nav a:hover {
+  color: red;
+}
 
-    <p style="text-align: center;">
-  <a href="https://instagram.com/higherground.nyc" target="_blank" class="insta-link">
-    Instagram: @higherground.nyc
-  </a>
-</p>
-    <p style="text-align: center;">Email: hello@higherground-nyc.com</p>
-    <p style="text-align: center; margin-top:20px;">
-We respond within 24 hours. Serious inquiries only.
-</p>
-    <div style="text-align:center; margin-top:20px;">
-  <a href="https://instagram.com/higherground.nyc" target="_blank"
-     style="color:white; text-decoration:none; border:1px solid white; padding:10px 15px; border-radius:10px;">
-    Message on Instagram
-  </a>
-</div>
+/* PAGE WRAPPER */
+.page-wrapper {
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
 
-  </div>
+/* MAIN BOX */
+.scroll-box {
+  width: 92%;
+  max-width: 1100px;
+  max-height: calc(100dvh - 160px);
 
-</div>
+  background: rgba(255,255,255,0.03);
+  backdrop-filter: blur(25px);
 
-  <div class="bg-text">HIGHERGROUNDNYC</div>
+  border-radius: 24px;
+  padding: 50px;
+  overflow-y: auto;
 
-</body>
-</html>
+  border: 1px solid rgba(255,255,255,0.06);
+}
+
+/* HEADINGS */
+h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.about {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #aaa;
+}
+
+/* GRID */
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.work-grid img {
+  width: 100%;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.work-grid img:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  padding: 12px 22px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #ff2a2a;
+}
+
+/* BACKGROUND TEXT */
+.bg-text {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: clamp(24px, 4vw, 52px);
+  color: red;
+  opacity: 0.08;
+  letter-spacing: 3px;
+  pointer-events: none;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .scroll-box {
+    padding: 25px;
+  }
+
+  .nav-links {
+    gap: 15px;
+  }
+
+  .nav a {
+    font-size: 12px;
+  }
+}
