@@ -1,127 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io(1)%202/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon_io(1)%202/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon_io(1)%202/favicon-16x16.png">
+<link rel="manifest" href="/favicon_io(1)%202/site.webmanifest">
+<link rel="icon" href="/favicon_io(1)%202/favicon-32x32.png">
+<link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Adamina&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+</head>
 
-body {
-  margin: 0;
-  background: black;
-  font-family: 'Adamina', serif;
-  color: white;
-}
+<body>
 
-/* NAV */
-.nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 15px 30px;
-  position: fixed;
-  top: 15px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 95%;
-  max-width: 1000px;
-  z-index: 1000;
+<nav class="nav">
+  <div class="nav-links">
+    <a href="index.html">What We Do</a>
+    <a href="shop.html">Shop</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
 
-  background: rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+<div class="page-wrapper">
 
-  border-radius: 12px;
-}
+  <div class="scroll-box">
 
-.nav-links {
-  display: flex;
-  gap: 20px;
-}
+    <h2 style="text-align: center;">Book a Free Consult</h2>
 
-.nav a {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-}
+    <p style="text-align: center;">
+  <a href="https://instagram.com/higherground.nyc" target="_blank" class="insta-link">
+    Instagram: @higherground.nyc
+  </a>
+</p>
+    <p style="text-align: center;">Email: hello@higherground-nyc.com</p>
+    <p style="text-align: center; margin-top:20px;">
+We respond within 24 hours. Serious inquiries only.
+</p>
+    <div style="text-align:center; margin-top:20px;">
+  <a href="https://instagram.com/higherground.nyc" target="_blank"
+     style="color:white; text-decoration:none; border:1px solid white; padding:10px 15px; border-radius:10px;">
+    Message on Instagram
+  </a>
+</div>
 
-.nav a:hover {
-  color: red;
-}
+  </div>
 
-/* PAGE WRAPPER (centers everything) */
-.page-wrapper {
-  height: 100dvh;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding-top: 110px;
-  padding-bottom: 110px;
-}
+</div>
 
-/* SCROLL BOX (your actual page content) */
-.scroll-box {
-  width: 92%;
-  max-width: 1000px;
-  height: auto;
-  max-height: calc(100dvh - 140px);
+  <div class="bg-text">HIGHERGROUNDNYC</div>
 
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(15px);
-  border-radius: 20px;
-
-  border-radius: 20px;
-  padding: 40px;
-  overflow-y: auto;
-  box-sizing: border-box;
- position: relative;
- z-index: 1;
-}
-
-  .about {
-    text-align: center;
-  }
-  
-
-/* Background Text */
-  .bg-text {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-
-  transform: translate(12px, -12px);
-  font-family: 'Sedgwick Ave Display', cursive;
-  font-size: clamp(22px, 3.2vw, 48px);
-  color: red;
-
-  opacity: 0.6;
-  z-index: 10;
-  pointer-events: none;
-  letter-spacing: 2px;
-}
-
-/* MOBILE */
-@media (max-width: 768px) {
-  .scroll-box {
-    width: 95%;
-    height: 85vh;
-    padding: 20px;
-  }
-
-  .nav a {
-    font-size: 14px;
-  }
-
-  .insta-link {
-  color: white;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.insta-link:hover {
-  color: red;
-}
-
-  .about a {
-  color: white;
-  text-decoration: underline;
-}
-
-.about a:hover {
-  color: red;
-}
-  
-}
+</body>
+</html>
