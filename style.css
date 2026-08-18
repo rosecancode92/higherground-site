@@ -125,8 +125,7 @@ h2 {
 }
 
 .btn:hover {
-  transform: translateY(-2px);
-  background: #ff3a3a;
+  background: #8fae92;
 }
 
 /* WORK GRID */
